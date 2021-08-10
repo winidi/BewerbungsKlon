@@ -1,0 +1,39 @@
+﻿<Window x:Class="BewerbungsKloner3000.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BewerbungsKloner3000"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="656.558" Width="807.377">
+    <Grid HorizontalAlignment="Right" Width="790" Margin="0,0,2,2">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <TextBox x:Name="txt_Anschrift" HorizontalAlignment="Left" Height="89" Margin="153,246,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" AcceptsReturn="True" Width="248"/>
+        <RadioButton x:Name="rdb_AllgemeineAnrede" Content="Sehr geehrte Damen und Herren" HorizontalAlignment="Left" Margin="156,432,0,0" VerticalAlignment="Top" Height="30" Width="248"/>
+        <Label Content="Anrede:" HorizontalAlignment="Left" Margin="35,426,0,0" VerticalAlignment="Top" Width="119" Height="26"/>
+        <Label Content="Anschrift" HorizontalAlignment="Left" Margin="34,246,0,0" VerticalAlignment="Top" Width="119" Height="26"/>
+        <RadioButton x:Name="rdb_AnredeFrau" Content="Sehr geehrte Frau" HorizontalAlignment="Left" Margin="156,467,0,0" VerticalAlignment="Top" Height="30" Width="173"/>
+        <RadioButton x:Name="rdb_AnredeMann" Content="Sehr geehrter Herr" HorizontalAlignment="Left" Margin="156,503,0,0" VerticalAlignment="Top" Height="30" Width="173"/>
+        <TextBox x:Name="txt_anredeName" HorizontalAlignment="Left" Height="65" Margin="329,467,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="144"/>
+        <Label Content="Ort:" HorizontalAlignment="Left" Margin="35,549,0,0" VerticalAlignment="Top" Width="119" Height="26"/>
+        <Label Content="OriginalPfad:" HorizontalAlignment="Left" Margin="37,40,0,0" VerticalAlignment="Top" Width="119" Height="26"/>
+        <TextBox x:Name="txt_oriPath" HorizontalAlignment="Left" Height="26" Margin="156,40,0,0" TextWrapping="Wrap" Text="C:\Users\illty\Desktop\Bewerbungen\NodeBewerbungen\BewerbungsTemplate\Anschreiben.docx" VerticalAlignment="Top" Width="595"/>
+        <Button Content="Speichern" HorizontalAlignment="Left" Margin="571,246,0,0" VerticalAlignment="Top" Width="177" Height="89" Click="Button_Click" />
+        <TextBox x:Name="txt_Ort" HorizontalAlignment="Left" Height="26" Margin="156,549,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="86"/>
+        <Label Content="Stellenbezeichnung" HorizontalAlignment="Left" Margin="32,354,0,0" VerticalAlignment="Top" Width="119" Height="26"/>
+        <TextBox x:Name="txt_Stellenbezeichnung" HorizontalAlignment="Left" Height="50" Margin="153,354,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" AcceptsReturn="True" Width="245"/>
+        <Label Content="Lebenslauf:" HorizontalAlignment="Left" Margin="37,71,0,0" VerticalAlignment="Top" Width="119" Height="26"/>
+        <TextBox x:Name="txt_lebenslauf" HorizontalAlignment="Left" Height="26" Margin="156,71,0,0" TextWrapping="Wrap" Text="C:\Users\illty\Desktop\Bewerbungen\NodeBewerbungen\BewerbungsTemplate\Lebenslauf.pdf" VerticalAlignment="Top" Width="595"/>
+        <Label Content="Anhang1:" HorizontalAlignment="Left" Margin="37,102,0,0" VerticalAlignment="Top" Width="119" Height="26"/>
+        <TextBox x:Name="txt_CopyFile1" HorizontalAlignment="Left" Height="26" Margin="156,102,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="595"/>
+        <Label Content="Anhang2:" HorizontalAlignment="Left" Margin="37,133,0,0" VerticalAlignment="Top" Width="119" Height="26"/>
+        <TextBox x:Name="txt_CopyFile2" HorizontalAlignment="Left" Height="26" Margin="156,133,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="595"/>
+        <Label Content="Anhang3:" HorizontalAlignment="Left" Margin="37,164,0,0" VerticalAlignment="Top" Width="119" Height="26"/>
+        <TextBox x:Name="txt_CopyFile3" HorizontalAlignment="Left" Height="26" Margin="156,164,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="595"/>
+        <Label Content="Anhang4:" HorizontalAlignment="Left" Margin="37,195,0,0" VerticalAlignment="Top" Width="119" Height="26"/>
+        <TextBox x:Name="txt_CopyFile4" HorizontalAlignment="Left" Height="26" Margin="156,195,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="595"/>
+
+    </Grid>
+</Window>
